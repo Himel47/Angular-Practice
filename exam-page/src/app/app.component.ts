@@ -5,6 +5,7 @@ import { FooterComponent } from "../Components/footer/footer.component";
 import { LoginComponent } from "../Components/login/login.component";
 import { SidebarComponent } from "../Components/sidebar/sidebar.component";
 import { NoticeComponent } from "../Components/notice/notice.component";
+import { InstructionPageComponent } from "./instruction-page/instruction-page.component";
 
 @Component({
   selector: 'app-root',
@@ -15,8 +16,9 @@ import { NoticeComponent } from "../Components/notice/notice.component";
     FooterComponent,
     LoginComponent,
     SidebarComponent,
-    NoticeComponent
-  ],
+    NoticeComponent,
+    InstructionPageComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
