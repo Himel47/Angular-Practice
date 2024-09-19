@@ -16,14 +16,14 @@
     box-shadow: 0px -8px 15px var(--sColor);
 }
 
+*>.bottomShadowColor{
+    box-shadow: 0px 6px 15px var(--sColor);
+}
+
 *>.titleShadowColor{
     box-shadow: 0px -2px 5px var(--sColor);
 }
 
 *>.bodyShadowColor{
     box-shadow: 0px 9px 10px var(--sColor);
-}
-
-*>.bottomShadowColor{
-    box-shadow: 0px 6px 15px var(--sColor);
 }

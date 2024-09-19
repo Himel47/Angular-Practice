@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "../Components/header/header.component";
 import { FooterComponent } from "../Components/footer/footer.component";
-import { LoginComponent } from "../Components/login/login.component";
 import { SidebarComponent } from "../Components/sidebar/sidebar.component";
 import { NoticeComponent } from "../Components/notice/notice.component";
 import { InstructionPageComponent } from "./instruction-page/instruction-page.component";
@@ -14,7 +13,6 @@ import { InstructionPageComponent } from "./instruction-page/instruction-page.co
     RouterOutlet,
     HeaderComponent,
     FooterComponent,
-    LoginComponent,
     SidebarComponent,
     NoticeComponent,
     InstructionPageComponent

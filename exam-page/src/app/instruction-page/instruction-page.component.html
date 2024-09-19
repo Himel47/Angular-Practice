@@ -1,2 +1,31 @@
-<instruntion-header></instruntion-header>
-<instruntion-body></instruntion-body>
+<!-- <instruntion-header></instruntion-header>
+<instruntion-body></instruntion-body> -->
+
+<exam-title>
+    <h2 class="text-[30px] font-medium px-3 py-4 text-gray-800">{{exam_name}}</h2>
+</exam-title>
+<exam-body>
+    <h1 class="text-[18px] font-semibold">INSTRUCTIONS</h1>
+    <hr class="border-gray-900 my-2 border-dashed">
+    <p class="">
+        Please read the following instructions/guidelines carefully before starting
+        <strong>Online Test:</strong>
+    </p>
+    <ol class="list-decimal ps-9 py-4 text-justify">
+        <li>The test will commence at <u class="font-semibold">11:00 AM</u> and conclude at <u
+                class="font-semibold">11:25 AM.</u></li>
+        <li>The total duration of the test is <b class="font-semibold">{{exam_duration}} minutes.</b></li>
+        <li>All questions are Multiple Choice Questions (MCQs). A total of 50 questions, each carrying 1 mark, will be
+            provided sequentially. You can select an answer or skip a question without answering. Once you proceed, you
+            cannot go back to the previous question.</li>
+        <li>Each correct answer earns one mark.</li>
+        <li>
+            <p class="font-semibold">There will be a deduction of 0.25 marks for each incorrect answer.</p>
+        </li>
+        <li>No marks will be counted or deducted for skipped questions.</li>
+        <li>Google Chrome or Mozilla Firefox is the preferred web browsers.</li>
+        <li>"Proceed to Start Test" button will be available 15 minutes before the test begins.</li>
+    </ol>
+    <h1 class="text-[20px] mb-8">Exam Date & Time: <span class="text-[#cf171f]">{{exam_date}} at {{exam_time}}</span>
+    </h1>
+</exam-body>
