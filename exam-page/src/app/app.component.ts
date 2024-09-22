@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "../Components/header/header.component";
 import { FooterComponent } from "../Components/footer/footer.component";
-import { SidebarComponent } from "../Components/sidebar/sidebar.component";
 import { NoticeComponent } from "../Components/notice/notice.component";
 import { InstructionPageComponent } from "./instruction-page/instruction-page.component";
+import { SideBarComponent } from "../Components/side-bar/side-bar.component";
 
 @Component({
   selector: 'app-root',
@@ -13,9 +13,9 @@ import { InstructionPageComponent } from "./instruction-page/instruction-page.co
     RouterOutlet,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent,
     NoticeComponent,
-    InstructionPageComponent
+    InstructionPageComponent,
+    SideBarComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
